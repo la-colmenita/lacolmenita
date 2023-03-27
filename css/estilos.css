@@ -1,0 +1,38 @@
+h1 {
+	text-decoration:underline;
+	color:#FC710A;
+}
+a {
+	font-size:30px;
+	color:#000;
+	padding:10px 20px;
+	background:#FFB600;
+	text-decoration:none;
+}
+a:hover {
+	background:#EB9200;
+}
+a:active {
+	color:#E5100B;
+}
+p {
+	font-size:30px;
+}
+.miel {
+	color:yellow;
+	text-decoration:underline;
+}
+.algo {
+	text-decoration:none;
+	background:none;
+}
+.algo:hover {
+	background:none;
+}
+.host {
+	text-decoration:none;
+	background:none;
+}
+.host:hover {
+	background:none;
+}
