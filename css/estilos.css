@@ -87,3 +87,47 @@
       100% { transform: translateX(-10%) translateY(0px) rotate(0deg); }
     }
 	
+   .site-header {
+      position: absolute;
+      top: 10px;
+      left: 670px;
+      padding: 10px;
+    }
+    .logo {
+      width: 100px;
+      height: auto;
+    }
+    header {
+      text-align: center;
+      background-color: #ffcc00;
+      color: #5c3d00;
+    }
+	
+.productos-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* Que las columnas laterales se estiren igual que la de productos */
+  gap: 100px;
+  padding: 20px;
+}
+
+.side-image {
+  flex: 0 0 300px; /* Ancho fijo de cada lado */
+  display: flex;
+  align-items: stretch; /* Imagen ocupa toda la altura */
+}
+
+.side-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Que no se deforme */
+  border: 4px solid #ffcc00;
+  border-radius: 10px;
+  background-color: #fff8e1;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.products-list {
+  max-width: 600px;
+  width: 100%;
+}
